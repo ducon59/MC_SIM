@@ -32,6 +32,14 @@ st.markdown("""
   section[data-testid="stSidebar"] * {
     color: #e8edf2 !important;
   }
+  section[data-testid="stSidebar"] input {
+    color: #1a2332 !important;
+    background-color: #ffffff !important;
+}
+
+section[data-testid="stSidebar"] input::placeholder {
+    color: #6b7c93 !important;
+}
   section[data-testid="stSidebar"] .stSlider label,
   section[data-testid="stSidebar"] .stNumberInput label,
   section[data-testid="stSidebar"] .stSelectbox label {
