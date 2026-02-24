@@ -190,7 +190,7 @@ with st.sidebar:
     portfolio = st.number_input(
         "Initial Portfolio (€)",
         min_value=100_000, max_value=50_000_000,
-        value=3_100_000, step=100_000,
+        value=1_000_000, step=100_000,
         format="%d"
     )
     withdrawal = st.number_input(
